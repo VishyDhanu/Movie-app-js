@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./css/normalized.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <form id="form" class="nav">
+      <h2 class="nav__heading">Movie App</h2>
+      <input
+        type="text"
+        class="input"
+        id="search"
+        placeholder="Enter movie name here..."
+        autocomplete="off" />
+    </form>
+
+    <div class="container grid grid--1x4" id="main">
+      <div class="card movie">
+        <header class="card__header card--image movie-info">
+          <img src="" alt="" />
+        </header>
+        <div class="card__body movie-info">
+          <h1 class="card__heading"></h1>
+          <span class="span span--green"></span>
+        </div>
+        <div class="overview">
+          <h3 class="overview__heading"></h3>
+          <p class="overview__paragraph"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
